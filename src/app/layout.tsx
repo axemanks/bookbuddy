@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <Providers>
       <body className={inter.className}>
-        <h1>Demo of a Context aware chatbot. It is aware of the contents of books.toscrape.com</h1>
+          
         <Chat />
         {children}
         </body>
